@@ -21,6 +21,8 @@ execute:
 ```{r}
 #| label: setup
 #| include: false
+
+if (!requireNamespace("pacman", quietly = TRUE)) install.packages("pacman")
 library(pacman)
 pacman::p_load(
   lubridate, rio, here, scales, janitor, skimr, aweek, incidence2,
