@@ -1,21 +1,6 @@
 ---
 title: "Diphtheria Slideck Update, 2025"
 author: "muiangaj@who.int"
-format:
-  html:
-    toc: true
-    theme: flatly           
-    code-fold: true
-    code-summary: "Show code"
-    code-tools: false
-    code-block-bg: true
-    css: styles.css
-    page-layout: full          # ← makes the report use full browser width
-editor: visual
-execute:
-  echo: false
-  warning: false
-  message: false
 ---
 
 ```{r}
